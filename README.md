@@ -5,6 +5,8 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 |$A_v>3000V/V$|$V_{DD}=0.9V;V_{SS}=-0.9V$|$GB=10MHz$|$SR>12V/µs$|
 |-------------|-------------------------|----------|----------|
 |$60°$ phase margin|$V_{out}range=-0.5V to 0.5V$|$ICMR=-0.5V to 0.5V$|$P_{diss}≤3mW$|
+## Schematic
+
 ## Calculations
 ### Extract Parameters
 ![NMOS_schematic](/FLOWCHART/NMOS_schematic.png)
@@ -24,14 +26,17 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - $K_n=1/2C_{ox}µ_n=118μA/V^2$
 - $V_{TN}=V_{TH0}=0.393 V$
 - $λ_N=0.062 V^{-1}$
-#### NMOS
+#### PMOS
 ![PMOS_model](/FLOWCHART/PMOS_model.png)
 - $µ_n=U_0=116.1690772cm^2/VS$
 - $K_{n'}=µ_nC_ox=98μA/V^2$
 - $K_n=1/2C_{ox}µ_n=49μA/V^2$
 - $V_{TN}=V_{TH0}=-0.404V$
 - $λ_N=0.08V^{-1}$
-
+### Calculate the parameters according to the theory
+1. From the phase margin $60^°$ and the $C_L$ capacitor value, calculate the minimum value of the capacitor $C_c$
+   
+3. 
 
 
 
