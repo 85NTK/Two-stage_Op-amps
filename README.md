@@ -6,8 +6,14 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 |-------------|-------------------------|----------|----------|
 |$60°$ phase margin|$V_{out}range=-0.5V to 0.5V$|$ICMR=-0.5V to 0.5V$|$P_{diss}≤3mW$|
 ## Calculations
-Extract Parameters
-
+### Extract Parameters
+![NMOS_schematic](/FLOWCHART/NMOS_schematic.png)
+![NMOS_Simulation](/FLOWCHART/NMOS_Simulation.png)
+#### NMOS
+- $V_{DS1}=1.4003257V, I_{D1}=1.1182828mA$
+- $V_{DS2}=1.5996743V, I_{D2}=1.131001mA$
+- $λ_N=(I_{D2}-I_{D1})/(I_{D1}.V_{DS2}-I_{D2}.V_{DS1})=0.062$
+- $λ_P=(I_{D2}-I_{D1})/(I_{D1}.V_{DS2}-I_{D2}.V_{DS1})≈0.08$
 
 
 
