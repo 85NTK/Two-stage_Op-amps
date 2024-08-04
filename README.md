@@ -6,7 +6,7 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 |-------------|-------------------------|----------|----------|
 |$60°$ phase margin|$V_{out}range=-0.5V to 0.5V$|$ICMR=-0.5V to 0.5V$|$P_{diss}≤3mW$|
 ## Schematic
-
+![Two-stage_Op-amps_schematic](/FLOWCHART/Two-stage_Op-amps_schematic.png)
 ## Calculations
 ### Extract Parameters
 ![NMOS_schematic](/FLOWCHART/NMOS_schematic.png)
