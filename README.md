@@ -9,14 +9,28 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 ### Extract Parameters
 ![NMOS_schematic](/FLOWCHART/NMOS_schematic.png)
 ![NMOS_Simulation](/FLOWCHART/NMOS_Simulation.png)
-#### NMOS
 - $V_{DS1}=1.4003257V, I_{D1}=1.1182828mA$
 - $V_{DS2}=1.5996743V, I_{D2}=1.131001mA$
 - $λ_N=(I_{D2}-I_{D1})/(I_{D1}.V_{DS2}-I_{D2}.V_{DS1})=0.062$
 - $λ_P=(I_{D2}-I_{D1})/(I_{D1}.V_{DS2}-I_{D2}.V_{DS1})≈0.08$
-
-
-
+![NMOS_model](/FLOWCHART/NMOS_model.png)
+- $ε_o=8,854.10^{-12}F/m$	
+- $ε_r(SiO_2)=3,9$
+- $T_{OX}=4,1.10^{-9}$
+- $C_{ox}=(ε_o*ε_r)/T_{OX} =8,4 .10^{-3}F/m^2$
+#### NMOS
+- $µ_n=U_0=280.5758609cm^2/VS$
+- $K_{n'}=µ_nC_ox=236μA/V^2$
+- $K_n=1/2C_{ox}µ_n=118μA/V^2$
+- $V_{TN}=V_{TH0}=0.393 V$
+- $λ_N=0.062 V^{-1}$
+#### NMOS
+![PMOS_model](/FLOWCHART/PMOS_model.png)
+- $µ_n=U_0=116.1690772cm^2/VS$
+- $K_{n'}=µ_nC_ox=98μA/V^2$
+- $K_n=1/2C_{ox}µ_n=49μA/V^2$
+- $V_{TN}=V_{TH0}=-0.404V$
+- $λ_N=0.08V^{-1}$
 
 
 
