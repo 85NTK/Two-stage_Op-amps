@@ -35,9 +35,22 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - $λ_N=0.08V^{-1}$
 ### Calculate the parameters according to the theory
 1. From the phase margin $60^°$ and the $C_L$ capacitor value, calculate the minimum value of the capacitor $C_c$
-   
-3. 
-
+- $C_c>22/10×C_L⇒C_c>22/10×10pF=2.2pF$
+2. Choose $C_c=3p$. Calculate $I_5$ from $SR$ and $C_c$
+- $I_5=SR.C_c=(12×10^6)(3×10^{-12})=36μA$
+3. Use $ICMR$ calculate $(W/L)_3$
+- $(W/L)_3=(W/L)_4$
+- $=I_5/(K_{p3'}[V_{DD}-V_{in}(max)-|V_{T03}|(max)+V_{T1}(min)]^2)$
+- $=(36×10^{-6})/(98×10^{-6}×[0.9-0.5-0.484+0.313]^2)=7$
+4. Calculate the value $(W/L)_1$ to reach $GB=10MHz$
+- $g_{m1}=GB.2π.C_c$
+- $=(10×10^6)(2π)(3×10^{-12})=188.5μS$
+- $(W/L)_1=(W/L)_2$
+- $=g_{m1}^2/(K_{n1'}I_5)$
+- $=(188.5×10^{-6})^2/(236×10^{-6}×36×10^{-6})=4.18$
+5. Calculate $V_{DS5}(sat)$ from $ICMR$ from which $(W/L)_5$
+- $V_{DS5}(sat)≥100mV$
+- $=V_{in}(min)-V_{SS})-(√(I_5/(K_{n1'}(W/L)_1))-V_{TN1}(max)$
 
 
 
