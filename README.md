@@ -75,3 +75,7 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 #### Phase Margin
 - Difference of 2 margins minus each other: Phase at $0dB-(-180^°)$ gain
 ![phaseMargin](/FLOWCHART/phaseMargin.png)
+#### Slew rate
+- Circuit Respons
+- Speed Adding a square wave (step) uses the regression property of the algorithm amplification circuit
+- 
