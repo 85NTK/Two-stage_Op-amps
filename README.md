@@ -1,5 +1,7 @@
 # Two-stage_Op-amps
 Design of two-stage Op-amps using CMOS 180NM technology
+---
+***
 ## Specifications
 Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $C_L = 10pF$
 |$A_v>3000V/V$|$V_{DD}=0.9V;V_{SS}=-0.9V$|$GB=10MHz$|$SR>12V/µs$|
@@ -99,3 +101,5 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 |$SR$|$>12V/μS$|$12V/μS$|$8.77V/𝜇S$|		
 |$V_{out range}|$-0.5V→0.5V$|$−𝟎.𝟔𝟑𝟔𝑽→𝟎.𝟔𝟕𝟏𝑽$|$−𝟎.𝟔𝑽→𝟎.𝟔𝑽$ |	
 |$P_{diss}$|$≤3mW$|$0.45mW$|$0.342mW$|
+---
+***
