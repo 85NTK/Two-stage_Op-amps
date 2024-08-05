@@ -49,8 +49,7 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - $=g_{m1}^2/(K_{n1'}I_5)$
 - $=(188.5×10^{-6})^2/(236×10^{-6}×36×10^{-6})=4.18$
 5. Calculate $V_{DS5}(sat)$ from $ICMR$ from which $(W/L)_5$
-- $V_{DS5}(sat)≥100mV$
-- $=V_{in}(min)-V_{SS})-(√(I_5/(K_{n1'}(W/L)_1))-V_{TN1}(max)$
+
 
 
 
