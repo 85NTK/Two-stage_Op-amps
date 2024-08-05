@@ -57,6 +57,9 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 8. Calculate $(W/L)_7$ based on $I_6/I_5$
 ![(WL)7](/FLOWCHART/(WL)7.png)
 9. Checking the parameters again
+![CheckingParametersAgain](/FLOWCHART/CheckingParametersAgain.png)
+## Simulation
+
 
 
 
