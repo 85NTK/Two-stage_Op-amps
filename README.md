@@ -65,3 +65,37 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 #### Gain
 ![gainFormula](/FLOWCHART/gainFormula.png)
 ![gainWaves](/FLOWCHART/gainWaves.png)
+![gainLog](/FLOWCHART/gainLog.png)
+#### Gain Bandwidth
+![gainBandWidth](/FLOWCHART/gainBandWidth.png)
+- $GB= A_v×f_c$
+- Taken at $0dB: A_v=1→GB=f_c$
+- Take at the highest gain $(dB)$ minus $3dB:GB=A_v×f_{-3dB}
+- Example: $68 dB→A_v=10{68/20}$
+#### Phase Margin
+- Difference of 2 margins minus each other: Phase at $0dB-(-180^°)$ gain
+![phaseMargin](/FLOWCHART/phaseMargin.png)
+#### Slew rate
+- Circuit Response
+- Speed Adding a square wave (step) uses the regression property of the algorithm amplification circuit
+![slewRate](/FLOWCHART/slewRate.png)
+- Due to the response speed of the circuit, the output wave is jammed
+- Measured in linear ramps, not curves
+#### Power Dissipation
+- Single source: $P_{diss}=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})
+- Dual power: $P_{diss}=V_{DD}×(I_{whole circuit})
+- Simulation: .meas Tran power AVG 2V(vn001)*Id(M5)
+#### $V_{out} range$
+$v_{out}=V_{out}+v_{out}$
+$V_{DS}>V_{GS}-V_{th}$
+![voutRange](/FLOWCHART/voutRange.png)
+- Input signal is serrated wave (scan from -0.9V to 0.9V)
+- The output signal is almost like a serrated wave, choose a linear segment to measure
+## Assess
+|PARAMETERS|SPECIFICATION|CALCULATE|SIMULATE|
+|----------|-------------|---------|--------|
+|$A_v$|$>3000V/V|$4532.3$|$1111.51|
+|$GB$|$10MHz$|$10MHz$|$2.45MHz|
+|$SR$|$>12V/μS$|$12V/μS$|$8.77V/𝜇S$|		
+|$V_{out range}|$-0.5V→0.5V$|$−𝟎.𝟔𝟑𝟔𝑽→𝟎.𝟔𝟕𝟏𝑽$|$−𝟎.𝟔𝑽→𝟎.𝟔𝑽$ |	
+|P_{diss}|$≤3mW$|$0.45mW$|$0.342mW$|
