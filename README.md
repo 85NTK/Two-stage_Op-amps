@@ -88,7 +88,7 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 #### $V_{out} range$
 - $v_{out}=V_{out}+v_{out}$
 - $V_{DS}>V_{GS}-V_{th}$
-- ![voutRange](/FLOWCHART/voutRange.png)
+![voutRange](/FLOWCHART/voutRange.png)
 - Input signal is serrated wave (scan from -0.9V to 0.9V)
 - The output signal is almost like a serrated wave, choose a linear segment to measure
 ## Assess
