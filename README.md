@@ -60,8 +60,8 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 ![CheckingParametersAgain](/FLOWCHART/CheckingParametersAgain.png)
 ## Simulation
 ### Schematic
-![SimulationSchematic](/FLOWCHART/SimulationSchematic.png)
+![gainWaves](/FLOWCHART/gainWaves.png)
 ### Simlation results
 #### Gain
-![gainFormula](/FLOWvoutRange](/FLOWCHART/voutRange.png)
-
+![gainFormula](/FLOWCHART/gainFormula.png)
+![gainWaves](/FLOWCHART/gainWaves.png)
