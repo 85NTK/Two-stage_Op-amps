@@ -82,20 +82,19 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - Due to the response speed of the circuit, the output wave is jammed
 - Measured in linear ramps, not curves
 #### Power Dissipation
-- Single source: $P_{diss}=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})
-- Dual power: $P_{diss}=V_{DD}×(I_{whole circuit})
+- Single source: $P_{diss}=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})$
+- Dual power: $P_{diss}=V_{DD}×(I_{whole circuit})$
 - Simulation: .meas Tran power AVG 2V(vn001)*Id(M5)
 #### $V_{out} range$
-$v_{out}=V_{out}+v_{out}$
-$V_{DS}>V_{GS}-V_{th}$
-![voutRange](/FLOWCHART/voutRange.png)
+- $v_{out}=V_{out}+v_{out}$
+- $V_{DS}>V_{GS}-V_{th}$
 - Input signal is serrated wave (scan from -0.9V to 0.9V)
 - The output signal is almost like a serrated wave, choose a linear segment to measure
 ## Assess
 |PARAMETERS|SPECIFICATION|CALCULATE|SIMULATE|
 |----------|-------------|---------|--------|
-|$A_v$|$>3000V/V|$4532.3$|$1111.51|
-|$GB$|$10MHz$|$10MHz$|$2.45MHz|
+|$A_v$|$>3000V/V$|$4532.3$|$1111.51$|
+|$GB$|$10MHz$|$10MHz$|$2.45MHz$|
 |$SR$|$>12V/μS$|$12V/μS$|$8.77V/𝜇S$|		
 |$V_{out range}|$-0.5V→0.5V$|$−𝟎.𝟔𝟑𝟔𝑽→𝟎.𝟔𝟕𝟏𝑽$|$−𝟎.𝟔𝑽→𝟎.𝟔𝑽$ |	
-|P_{diss}|$≤3mW$|$0.45mW$|$0.342mW$|
+|$P_{diss}$|$≤3mW$|$0.45mW$|$0.342mW$|
