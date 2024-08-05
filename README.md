@@ -82,7 +82,7 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - Due to the response speed of the circuit, the output wave is jammed
 - Measured in linear ramps, not curves
 #### Power Dissipation
-- Single source: $P_{diss=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})$
+- Single source: $P_{diss}=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})$
 - Dual power: $P_{diss}=V_{DD}×(I_{whole circuit})$
 - Simulation: .meas Tran power AVG 2V(vn001)*Id(M5)
 
