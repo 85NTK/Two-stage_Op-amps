@@ -68,3 +68,10 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 ![gainLog](/FLOWCHART/gainLog.png)
 #### Gain Bandwidth
 ![gainBandWidth](/FLOWCHART/gainBandWidth.png)
+- $GB= A_v×f_c$
+- Taken at $0dB: A_v=1→GB=f_c$
+- Take at the highest gain $(dB)$ minus $3dB: GB= A_v×f_{-3d}$
+- Example: $68dB→A_v=10^{68/20}$
+#### Phase Margin
+- Difference of 2 margins minus each other: Phase at $0dB-(-180^°)$ gain
+![phaseMargin](/FLOWCHART/phaseMargin.png)
