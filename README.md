@@ -85,4 +85,8 @@ Uses 180nm CMOS technology, the channel length is  $0.5µm$, load capacitor is $
 - Single source: $P_{diss}=(V_{DD}+|V_{SS}|)×(I_{Whole Circuit})$
 - Dual power: $P_{diss}=V_{DD}×(I_{whole circuit})$
 - Simulation: .meas Tran power AVG 2V(vn001)*Id(M5)
+#### $V_{out} range$
+- $v_{out}=V_{out}+v_{out}$
+- $V_{DS}>V_{GS}-V_{th}$
+
 
